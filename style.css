@@ -1,18 +1,21 @@
+x:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --main-background-color: #2f303a;
+}
 .section_1 {
   background-color: #2f303a;
-  font-size: 900;
+  font-weight: 900;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-.bold {
-  color: #2196f3;
-}
+
 .head_1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   color: #2f303a;
   color: white;
@@ -21,7 +24,7 @@ body {
   background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
@@ -30,7 +33,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -47,24 +50,24 @@ body {
 .head_2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .head_4 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 18;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .head_4a {
   font-weight: 400;
-  color: #212121;
-  font-size: 16px;
-  line-height: 1, 18;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -112,4 +115,7 @@ a {
 .link_2 {
   color: #ffffff;
   font-size: 14px;
+}
+.link_3:hover {
+  color: #2196f3;
 }

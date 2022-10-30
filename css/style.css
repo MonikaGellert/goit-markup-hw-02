@@ -96,8 +96,10 @@ body {
 .link_2:hover,
 .link:focus,
 .link_2:focus,
-.link_3:hover {
-  color: var(--main-underline-colo);
+.link_3:hover,
+.button_2:hover,
+.button_1:hover {
+  color: var(--main-underline-color);
 }
 
 ul {
@@ -118,8 +120,4 @@ a {
 .link_2 {
   color: var(--main-font-color);
   font-size: 14px;
-}
-.button_2:hover,
-.button_1:hover {
-  color: var(--main-underline-color);
 }

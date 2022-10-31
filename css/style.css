@@ -32,14 +32,21 @@ body {
   cursor: pointer;
 }
 .button_2 {
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  border: 0px;
+  border-radius: 4px;
+  background: #f5f4fa;
   cursor: pointer;
+}
+.button_2:hover,
+.button_1:hover {
+  color: var(--main-font-color);
+  background-color: var(--main-underline-color);
 }
 .section_3 {
   color: #f5f4fa;
@@ -96,9 +103,7 @@ body {
 .link_2:hover,
 .link:focus,
 .link_2:focus,
-.link_3:hover,
-.button_2:hover,
-.button_1:hover {
+.link_3:hover {
   color: var(--main-underline-color);
 }
 
